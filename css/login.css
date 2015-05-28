@@ -1,0 +1,100 @@
+#clog{
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  width: 617px;
+	  height: 419px;
+	  margin-top: -208px;
+	  margin-left: -308px;
+	  overflow: auto;
+	  padding:2px;
+	  background-image:url(../img/baselogin.jpg);
+	  background-repeat:no-repeat;
+	  padding:50px; 
+}
+#logo{
+	width:515px;
+	}
+#cols{
+	overflow:hidden;
+	width:515px;
+	}
+#col1{
+	width:390px;
+	float:left;
+	text-align:right;
+	margin-top:80px;
+	}
+#col2{
+	float:right;
+	width:100px;
+	margin-top:80px;
+	}
+#arrowcosa{
+	margin-top:70px;
+	}
+.cajas{
+	overflow:hidden;
+	}
+.txtc{
+	font-size:12px;
+	color:#2c2c2c;
+	width:200px;
+	float:left;
+	margin-top:5px;
+	margin-right:4px;
+	}
+.cajac{
+	float:left;
+	}
+.stilecaja{
+	border:1px #dadada solid;
+	padding:2px;
+	width:180px;
+	color:#666;
+	}
+#btngo{
+	width:390px;
+	overflow:hidden;
+	margin-top:15px;
+	}
+/*****************************************************/
+.btnmarcas1{
+	overflow:hidden;
+	float:right;
+	margin-right:1px;
+	
+}
+.botonx1 a.sinst1 { 
+    display:block; 
+    width:75px; 
+    height:32px; 
+    background:transparent url(../img/bbtnlog.jpg) no-repeat top left; 
+    outline:none; 
+} 
+.botonx1 a:hover { 
+    background-position:0 -32px; 
+}
+/*****************************************************/
+#checkx{
+	overflow:hidden;
+	margin-top:8px;
+	}
+#txtchech{
+	width:370px;
+	float:left;
+	font-size:11px;
+	color:#8c8c8c;
+	margin-top:3px;
+	}
+#chekin{
+	float:left;
+	}	
+#rescatar{
+	margin-top:15px;
+	}
+/*****************************************************/
+.gorescat a:link {text-decoration:none; color: #ea322a; font-size:11px;} /* Link no visitado*/
+.gorescat a:visited {text-decoration:none; color:#ea322a; font-size:11px;} /*Link visitado*/
+.gorescat a:active {text-decoration:none; color:#ea322a; font-size:11px;} /*Link activo*/
+.gorescat a:hover {text-decoration:none; color:#9e0700; font-size:11px;} /*Mause sobre el link*/

@@ -1,0 +1,514 @@
+#wraper{
+	width:1024px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+#columnas{
+	overflow:hidden;
+	background-image:url(../img/loopgray.jpg);
+	}
+#col1{
+	float:left;
+	}
+#col2{
+	float:right;
+	width:787px;
+	}
+/*****************HEAD*******************/
+#head{
+	overflow:hidden;
+	margin-bottom:14px;
+	}
+#colizqh{
+	float:left;
+	width:170px;
+	margin-top:11px;
+	}
+#colderh{
+	float:right;
+	overflow:hidden;
+	width:630px;
+	}
+#menutop{
+	margin-top:15px;
+	overflow:hidden;
+	margin-bottom:58px;
+	}
+#space{
+	float:left;
+	width:299px;
+	height:30px;
+	}
+#btntop{
+	float:left;
+	overflow:hidden;
+	margin-top:5px;
+	margin-right:30px;
+	}
+#icono1{
+	float:left;
+	}
+#txtmenutop{
+	float:left;
+	margin-top:4px;
+	font-size:12px;
+	color:#fff;
+	margin-left:10px;
+
+	}
+#cajabusqueda{
+	float:right;
+	overflow:hidden;
+	}
+#icon2{
+	float:left;
+	margin-top:3px;
+	}
+#campo{
+	float:left;
+	margin-top:2px
+	}
+/************/
+.gomenu a:link {text-decoration:none; color: #fff; font-size:12px;} /* Link no visitado*/
+.gomenu a:visited {text-decoration:none; color:#fff; font-size:12px;} /*Link visitado*/
+.gomenu a:active {text-decoration:none; color:#fff; font-size:12px;} /*Link activo*/
+.gomenu a:hover {text-decoration:none; color:#800003; font-size:12px;} /*Mause sobre el link*/
+/************/
+.protecno a:link {text-decoration:none; color: #fff; font-size:11px;} /* Link no visitado*/
+.protecno a:visited {text-decoration:none; color:#fff; font-size:11px;} /*Link visitado*/
+.protecno a:active {text-decoration:none; color:#fff; font-size:11px;} /*Link activo*/
+.protecno a:hover {text-decoration:none; color:#f0e178; font-size:11px;} /*Mause sobre el link*/
+/*Fin de especial de somos lista icon*/
+#colizqf{
+	margin-bottom:7px;
+	}
+#menupx{
+	background-color:#063;
+	}
+.btnss{
+	overflow:hidden;
+	float:left;
+	margin-left:15px;
+	color:#FFF;
+	}
+.btnl{
+	float:left;
+	width:14px;
+	height:36px;
+	background-image:url(../img/btnl.png);
+	background-repeat:no-repeat;
+	}
+.btnc{
+	float:left;
+	background-image:url(../img/loopbtnp.jpg);
+	font-size:14px;
+	padding:12px;
+	}
+.btnr{
+	float:left;
+	width:14px;
+	height:36px;
+	background-image:url(../img/btnr.png);
+	background-repeat:no-repeat;
+	}
+/*******************************/
+#listamenu{
+	margin:0px;
+	}
+ul.menulist li{
+	height:17px;
+	padding-top:7px;
+	padding-left:10px;
+	color:#FFFFFF;
+	border-bottom:1px #5d9129 solid;
+	font-size:11px;
+	width:226px;
+	}
+ul.menulist{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	list-style-image: none;
+	list-style-type: none;
+	position: relative;
+	}
+ul.menulist li:hover {
+	background-color: #538a07;
+	position: relative;
+}
+ul.menulist a:hover	{
+ text-decoration: none;
+ color: #fff;
+}
+ul.menulist a:visited {
+ text-decoration: none;
+ color: #FFFFFF; 
+}
+ul.menulist a:link {
+ text-decoration: none;
+ color: #fff; 
+}
+/******************************************************************************/
+.pflotante{
+	position:absolute;
+	z-index:103;
+	}
+#mapasite{
+	margin-left:-30px;
+	margin-top:10px;
+	width:230px;
+	background-image:url(../img/breg.png);
+	padding:10px;
+	border:2px #CCC solid;
+	}
+ul.listamapa li{
+	font-size:12px;
+	list-style: none;
+	padding-left: 10px;
+	margin-right:30px;
+	}
+ul.listamapa li.iconmap{
+	background: transparent url(../img/limap.png) no-repeat 0px 8px;
+	padding-top:10px;
+	padding-left:25px;
+	}
+/************/
+ul.redesicon li{
+	display:inline;
+	}
+/*****************SLIDE******************/
+#slide{
+	}
+/******************MENU*****************/
+#menu{
+	background-image:url(../img/loopmenu.jpg);
+	width:237px;
+	height:318px;
+	}
+#cajamenup{
+	background-image:url(../img/plecamennu.jpg);
+	background-repeat:no-repeat;
+	padding-bottom:20px;
+	padding-top:30px;
+	padding-left:10px;
+	color:#ffeb9c;
+	}
+#separador_menu{
+	height:5px;
+	background-color:#192a0a;
+	}
+/************PROMOCIONES******************/
+#promociones{
+	margin-top:10px;
+	}
+#promo1{
+	background-image:url(../img/bpromo1.jpg);
+	height:93px;
+	width:237px;
+	margin-bottom:10px;
+	}
+#promo2{
+	background-image:url(../img/bpromo2.jpg);
+	height:93px;
+	width:237px;
+	margin-bottom:10px;
+	}
+#promo3{
+	background-image:url(../img/bpromo3.jpg);
+	height:93px;
+	width:237px;
+	margin-bottom:10px;
+	}
+#promo4{
+	background-image:url(../img/bpromo4.jpg);
+	height:93px;
+	width:237px;
+	margin-bottom:10px;
+	}
+/*************CONTACTO_HOME****************/
+#contacthome{
+	width:237px;
+	margin-top:10px;
+	}
+#titulo_contacthome{
+	background-color:#026e08;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:10px;
+	color:#FFF;
+	}
+#b_contacthome{
+	background-image:url(../img/b_contacthome.jpg);
+	background-repeat:no-repeat;
+	font-size:12px;
+	color:#fff;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left:10px;
+	margin-bottom:10px;
+	}
+/************CUERPO*************************/
+#cuerpo{
+	margin:10px;
+	}
+.cajapromo{
+	overflow:hidden;
+	float:left;
+	margin-right:13px;
+	margin-bottom:10px;
+	}
+.caja_l{
+	float:left;
+	width:17px;
+	height:200px;
+	background-image:url(../img/caja_l.png);
+	}
+.caja_c{
+	float:left;
+	background-image:url(../img/loopcaja.png);
+	width:320px;
+	font-size:12px;
+	padding:8px;
+	}
+.caja_r{
+	float:left;
+	width:17px;
+	height:200px;
+	background-image:url(../img/caja_r.png);
+	}
+/*****************caracteristicas de lacaja************/
+.titucaja{
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-top:5px;
+	font-size:12px;
+	}
+.picytxt{
+	height:60px;
+	}
+.pic{
+	float:left;
+	width:138px;
+	padding-bottom:10px;
+	}
+.txtx{
+	float:left;
+	text-align:justify;
+	width:177px;
+	padding-left:5px;
+	color:#616161;
+	}
+.btnmasx{
+	background-image:url(../img/vermas.jpg);
+	background-repeat:no-repeat;
+	color:#fff;
+	padding:13px;
+	float:right;
+	}
+#todas_las_cajas{
+	overflow:hidden;
+	width:767px
+	}
+/*******************/
+#txtdesc{
+	text-align:justify;
+	}
+#titulocuerpo{
+	color:#900;
+	font-size:12px;
+	margin-bottom:15px;
+	margin-top:15px;
+	}
+#txtcuerpo{
+	font-size:12px;
+	color:#696969;
+	}
+/**************FOOTER*********************/
+#footer{
+	overflow:hidden;
+	background-image:url(../img/barfoter.jpg);
+	background-repeat:no-repeat;
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-right:10px;
+	font-size:11px;
+	color:#fff;
+	text-align:right;
+	}
+/***************INFO 1**************/
+#info1{
+	padding:10px;
+	background-color:#FFF;
+	}
+#menu_infotop{
+	margin-bottom:25px;
+	color:#555555;
+	font-size:12px;
+	}
+ul.menutopinfo li{
+	display:inline;
+	margin-right:10px;
+	}
+#titu_info{
+	color:#555555;
+	font-size:25px;
+	margin-bottom:10px;
+	}
+.gohome a:link {text-decoration:none; color: #5f9fcb; font-size:12px;} /* Link no visitado*/
+.gohome a:visited {text-decoration:none; color:#5f9fcb; font-size:12px;} /*Link visitado*/
+.gohome a:active {text-decoration:none; color:#5f9fcb; font-size:12px;} /*Link activo*/
+.gohome a:hover {text-decoration:none; color:#285574; font-size:12px;} /*Mause sobre el link*/
+#separador{
+	height:3px;
+	width:768px;
+	background-image:url(../img/loopline.jpg);
+	margin-bottom:20px;
+	}
+.txtinfo{
+	margin-bottom:10px;
+	margin-top:10px;
+	font-size:12px;
+	color:#777777;
+	line-height:20px;
+	}
+.titulogeneral{
+	font-size:18px;
+	color:#5f9fcb;
+	margin-top:15px;
+	margin-bottom:10px;
+	}
+ul.valores li{
+	font-size:12px;
+	list-style: none;
+	padding-left: 10px;
+	margin-right:30px;
+	}
+ul.valores li.iconval{
+	background: transparent url(../img/iconval.jpg) no-repeat 0px 8px;
+	padding-top:10px;
+	padding-left:25px;
+	}
+#blokes{
+	overflow:hidden;
+	}
+#listageneral{
+	float:left;
+	padding-left:50px;
+	padding-top:15px;
+	}
+#imginfo{
+	float:right;
+	}
+/*************CONTACTO********************/
+.separador2{
+	height:1px;
+	background-color:#CCC;
+	}
+#redes{
+	overflow:hidden;
+	margin-bottom:10px;
+	margin-top:10px;
+	}
+#iconredes{
+	float:left;
+	width:70px;
+	height:70px;
+	background-color:#999;
+	}
+#descredes{
+	float:left;
+	font-size:12px;
+	color:#999;
+	margin-left:15px;
+	width:600px;
+	}
+#colscont{
+	overflow:hidden;
+	margin-top:25px;
+	}
+#coliztcont{
+	float:left;
+	width:400px;
+	}
+#coldercont{
+	float:right;
+	width:340px;
+	}
+.titucajax{
+	background-color:#CCC;
+	padding:20px;
+	}
+#infoconx{
+	font-size:12px;
+	color:#999;
+	}
+#forma{}
+.campos{
+	font-size:12px;
+	color:#666;
+	margin-top:15px;
+	}
+#cajasproductos{}
+.contcaja{
+	overflow:hidden;
+	width:767px;
+	}
+.colcaj1{
+	float:left;
+	width:164px;
+	}
+.separax{
+	float:left;
+	background-image:url(../img/sepaver.jpg);
+	background-repeat:repeat-y;
+	width:1px;
+	height:130px;
+	margin-left:25px;
+	margin-right:25px;
+	}
+.separaxx{
+	background-image:url(../img/sepahor.jpg);
+	background-repeat:repeat-x;
+	width:767px;
+	height:1px;
+	margin-bottom:20px;
+	margin-top:20px;
+	}
+.colcaj2{
+	float:left;
+	width:550px;
+	}
+.titutitu{
+	font-size:12px;
+	color:#000;
+	font-weight:bold;
+	margin-bottom:15px;
+	}
+.txtdelproducto{
+	font-size:12px;
+	color:#708289;
+	line-height:20px;
+	margin-bottom:20px;
+	}
+.precioymas{
+	overflow:hidden;
+	}
+.precio{
+	float:left;
+	font-size:35px;
+	color:#7595ad;
+	}
+.vemaspro{
+	float:right;
+	font-size:12px;
+	padding:8px;
+	color:#fff;
+	background-color:#7595ad;
+	width:70px;
+	text-align:center;
+	margin-top:5px;
+	}
+.detallego a:link {text-decoration:none; color:#fff; font-size:12px;} /* Link no visitado*/
+.detallego a:visited {text-decoration:none; color:#fff; font-size:12px;} /*Link visitado*/
+.detallego a:active {text-decoration:none; color:#fff; font-size:12px;} /*Link activo*/
+.detallego a:hover {text-decoration:none; color:#083353; font-size:12px;} /*Mause sobre el link*/

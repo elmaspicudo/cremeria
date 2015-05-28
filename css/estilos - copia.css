@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+/***********************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, ection, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+html{
+	background-image:url(../img/fondoloop.jpg);
+	}
+body {
+	line-height: 1;
+	background-image:url(../img/fondogral.jpg);
+	background-repeat:repeat-x;
+}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+/***********************************************/
+#wraper{
+	width:1024px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+#head{
+	/*z-index:110;*/
+	}
+#cuerpo{
+	overflow:hidden;
+	}
+/*-----------------------------*/
+#cont{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7c7356;
+	background-color:#161616;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:30px;
+	padding-top:30px;
+	overflow:hidden;
+	border-left:#000 solid 1px;
+	border-right:#000 solid 1px;
+	}
+#colizq{
+	font-size:12px;
+	text-align:justify;
+	width:460px;
+	float:left;
+	padding-right:11px;	
+	}
+#coldere{
+	width:440px;
+	float:left;
+	margin-left:31px;
+	}
+.titulo{
+	overflow:hidden;
+	padding-bottom:15px;
+	padding-top:15px;
+	}
+.arrow{
+	float:left;
+	}
+.titutitu{
+	padding-top:9px;
+	padding-left:10px;
+	color:#dad9d9;
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+	}
+/*caja general*/
+/*.caja2 {background:#f8f5ec; padding:0;width:190px;border-radius:7px;-moz-border-radius: 7px; -webkit-border-radius : 7px; border:#a83928 solid 3px; float:left; margin:8px;}*/
+.cajax{
+	float:left;
+	margin:8px;
+	}
+div#rounded-box1 {background:transparent;padding:0;width:200px;}
+.rb4 {background:#edeae1;margin:0 auto;padding:0;width:198px;height:3px;}
+.rb3 {background:#edeae1;margin:0 auto;padding:0;width:196px;height:2px;}
+.rb2 {background:#edeae1;margin:0 auto;padding:0;width:192px;height:1px;}
+.rb1 {background:#edeae1;margin:0 auto;padding:0;width:188px;height:1px;}
+.rb-content {background:#edeae1;padding:0;width:200px;}
+.stilcont{
+	padding:10px;
+	}
+/*finde caja general*/
+.menulat{
+	width:222px;
+	height:561px;
+	background-color:#069;
+	float:left;
+
+	}
+.prods{
+	width:770px;
+	float:right;
+	padding-left:30px;
+	}
+/*caja general*/
+/*.caja2 {background:#f8f5ec; padding:0;width:190px;border-radius:7px;-moz-border-radius: 7px; -webkit-border-radius : 7px; border:#a83928 solid 3px; float:left; margin:8px;}*/
+.cajax-2{
+	float:left;
+	margin:8px;
+	overflow:hidden;
+	}
+div#rounded-box1-2 {background:transparent;padding:0;width:350px;}
+.rb4-2 {background:#edeae1;margin:0 auto;padding:0;width:348px;height:3px;}
+.rb3-2 {background:#edeae1;margin:0 auto;padding:0;width:346px;height:2px;}
+.rb2-2 {background:#edeae1;margin:0 auto;padding:0;width:342px;height:1px;}
+.rb1-2 {background:#edeae1;margin:0 auto;padding:0;width:338px;height:1px;}
+.rb-content-2 {background:#edeae1;padding:0;width:350px;}
+.stilcont-2{
+	padding:10px;
+	}
+/*finde caja general*/

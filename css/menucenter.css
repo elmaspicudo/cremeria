@@ -1,0 +1,67 @@
+/*Inicio menu 1*/
+.menu1{ float:left;}
+.menu1 {position:relative; height:32px;}
+.menu1 .menu1 {position:absolute;padding-left:0px;background:url(../img/menu/div.jpg) right top no-repeat;}
+.menu1 * {list-style:none;border:0;padding:0;margin:0;}
+.menu1 a {display:block; width:128px;padding-top:10px; padding-bottom:11px; text-align:center;/*padding:15px 14px 14px 14px;*/}
+.menu1 li {float:left;background:.fff;}
+.menu1 li li {float:none;}
+.menu1 div {visibility:hidden;position:absolute;background:url(../img/menu/pix.gif);}
+.menu1 div div {margin:-35px 0 0 -1px;left:100%;}
+.menu1 div div div {margin:-35px 0 0 -1px;left:100%;}
+.menu1 li:hover>div {visibility:visible;}
+.menu1 a {text-decoration:none;color:#000;position:relative;z-index:77;}
+.menu1 a:hover {background:url(../img/menu/header.gif) left -54px repeat-x;color:#FFF;}
+.menu1 a:hover span {color:#FFF; font-size:12px;}
+.menu1 li.current a {background:transparent url(../img/menu/header_active.gif) repeat-x;color:#3C4955;}
+.menu1 li.current span {color:#3C4955;}
+.menu1>ul>li:hover>a {background:url(../img/menu/header.gif) left -54px repeat-x;color:#CACFD3;}
+.menu1>ul>li:hover>a span {color:#FFF;}
+.menu1 span { font-family:Arial, Helvetica, sans-serif; font-size:12px; letter-spacing:0.0em; color:#fff;}
+/*#menu1 span {text-transform:uppercase;font:9px 'Lucida Grande','Lucida Sans Unicode',Arial,Verdana,sans-serif;letter-spacing:0px;text-decoration:none;color:#ffffff;}*/
+.menu1 li {background:url(../img/menu/div.jpg) left top no-repeat;}
+.menu1 ul ul {width:150px;}
+.menu1 li li{background:#FF9000;border-bottom:1px solid #637181;}/*linea*/
+.menu1 li li a {position:static;background:#405365;white-space:normal;text-align:center;color:#FFF;padding:0;text-transform:none;width:100%;}/*state menu*/
+.menu1 li.current li a {background:none;color:#FFF;}
+.menu1 li.current li span {color:#FFF;}
+.menu1 li li a:hover {background:#5D6A7A;}/*over menu*/
+.menu1 li li a span {color:#fff;line-height:15px;padding:10px; font-size:12px;}
+.menu1 li li a:hover span {color:#ffffff;}
+.menu1 li li a.parent span{background:transparent url(../img/menu/arrow.gif) no-repeat scroll right 50%;z-index:10;}
+.menu1 li li span {display:block;text-transform:none;padding:0px 25px 0px 0px;font-size:12px;letter-spacing:0;}
+.menu1{ padding-left:0px;}
+/*fin menu 1*/
+#menu2{ float:left;}
+#menu2 {position:relative; z-index:100; height:32px;}
+#menu2 .menu2 {position:absolute;padding-left:0px;background:url(../imgc/menu/div.jpg) right top no-repeat;}
+#menu2 * {list-style:none;border:0;padding:0;margin:0;}
+#menu2 a {display:block; width:128px;padding-top:10px; padding-bottom:11px; text-align:center;/*padding:15px 14px 14px 14px;*/}
+#menu2 li {float:left;background:#fff;}
+#menu2 li li {float:none;}
+#menu2 div {visibility:hidden;position:absolute;background:url(../img/menu/pix.gif); text-align:right;}
+#menu2 div div {margin:-35px 0 0 -1px;left:100%;}
+#menu2 div div div {margin:-35px 0 0 -1px;left:100%;}
+#menu2 li:hover>div {visibility:visible;}
+#menu2 a {text-decoration:none;color:#ffffff;position:relative;z-index:100;}
+#menu2 a:hover {background:url(../img/menu/header.gif) left -54px repeat-x;color:#FFF;}
+#menu2 a:hover span {color:#FFF; font-size:12px;}
+#menu2 li.current a {background:transparent url(../img/menu/header_active.gif) repeat-x;color:#3C4955;}
+#menu2 li.current span {color:#3C4955;}
+#menu2>ul>li:hover>a {background:url(../img/menu/header.gif) right -54px repeat-x;color:#CACFD3;}
+#menu2>ul>li:hover>a span {color:#FFF; }
+#menu2 span { font-family:Arial, Helvetica, sans-serif; font-size:12px; letter-spacing:0.0em; color:#fff;}
+/*#menu1 span {text-transform:uppercase;font:9px 'Lucida Grande','Lucida Sans Unicode',Arial,Verdana,sans-serif;letter-spacing:0px;text-decoration:none;color:#ffffff;}*/
+#menu2 li {background:url(../img/menu/div.jpg) left top no-repeat;}
+#menu2 ul ul {width:150px; margin: 0px -22px; position: absolute;}
+#menu2 li li{background:#FF9000;border-bottom:1px solid #637181; text-align:right;}/*linea*/
+#menu2 li li a {position:static;background:#405365;white-space:normal;text-align:center;color:#FFF;padding:0;text-transform:none;width:100%;}/*state menu*/
+#menu2 li.current li a {background:none;color:#FFF;}
+#menu2 li.current li span {color:#FFF;}
+#menu2 li li a:hover {background:#5D6A7A;}/*over menu*/
+#menu2 li li a span {color:#fff;line-height:15px;padding:10px; font-size:12px;}
+#menu2 li li a:hover span {color:#ffffff;}
+#menu2 li li a.parent span{background:transparent url(../img/menu/arrow.gif) no-repeat scroll right 50%;z-index:100;}
+#menu2 li li span {display:block;text-transform:none;padding:0px 25px 0px 0px;font-size:12px;letter-spacing:0;}
+#menu2{ padding-left:0px;}
+/*fin menu 2*/

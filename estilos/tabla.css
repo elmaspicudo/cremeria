@@ -1,0 +1,62 @@
+div.tabla
+{
+	clear: none;
+	overflow: auto;
+}
+
+div.fila
+{
+	clear: both;
+	font:11px/15px arial,tahoma,helvetica,sans-serif; 
+	float:left; 
+	border:#D0D0D0 1px solid thin;
+}
+div.filaCabecera
+{
+	clear: both;
+	font:11px/15px arial,tahoma,helvetica,sans-serif; 
+	float:left; 
+	background: url(../js/ext/resources/images/default/grid/grid3-hrow.gif) repeat-x 0;  
+	border:#D0D0D0 1px solid thin;
+}
+div.col_titulo
+{
+	float: left;
+	padding: 0px;
+	border-style: none;
+}
+
+div.col
+{
+	float: left;
+	padding: 0px;
+	border-style: none;
+	
+}
+div.colCabecera
+{
+	float: left;
+	padding: 0px;
+	border-left:1px solid #EEE;
+	border-right:1px solid #D0D0D0; 
+}
+.tool_del {
+background-image:url("../imagenes/butn-del.png");
+margin:0;
+width:15px;
+border:none;
+}
+.tool_edit, a.tool_del {
+background:url("../imagenes/butn-edit.png") no-repeat scroll 0 4px transparent;
+display:block;
+float:left;
+height:23px;
+margin-right:4px;
+width:14px;
+}
+.marker-late, .marker-late a {
+color:#BE4C43;
+}
+
+.blanco{ background-color:#FFF}
+.azul{ background-color:#BDB9D0}

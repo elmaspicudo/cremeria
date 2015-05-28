@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(../imagenes/fondo.jpg);
+	color:#FFF;
+}
+
+#divContenido{
+	margin:auto;
+	width:90%;	
+	background-color:red;
+	height:1080px;
+	
+	}
+#divEncabezado{
+	margin:auto;
+	width:100%;
+	height:140px;
+	background-color:#313C3D;
+	
+	}
+#divProceso{
+    margin:auto;
+	width:100%;
+	height:240px;
+	background-image:url(../imagenes/fondoNa.jpg);
+	}
+#divAzul
+{
+	background-image:url(../imagenes/fodoAz.jpg);
+	width:30%;
+	height:240px;
+	margin-left:0%;
+	margin-right:70%;
+	position:absolute;
+}
+#divAmarillo
+{
+	background-image:url(../imagenes/fondoAm.jpg);
+	width:30%;
+	height:240px;
+	margin-left:30%;
+	margin-right:30%;
+	position:absolute;
+}
+#divNaranja
+{
+	width:29%;
+	height:240px;
+	margin-left:60%;
+	margin-right:0px;
+	position:absolute;
+	background-image:url(../imagenes/fondoNa.jpg);
+}
+
+#divDatos{
+	margin:auto;
+	width:100%;	
+	height:800px;
+	background-color:#404040;
+	}
+#divIzquierdo
+{
+	width:30%;
+	margin-left:0%;
+	margin-right:70%;
+	position:absolute;
+	background-color:#303030;
+	/*background-color:#606060;*/
+	height:800px;
+	
+}
+#divDerecho
+{
+	width:58%;
+	margin-left:30%;
+	margin-right:0%;
+	position:absolute;
+	background-color:#404040;
+	height:800px;
+}
+#divFoter
+{
+	width:100%;
+	height:70px;
+	background-color:#202020;
+	margin-bottom:50px;
+}
+	
+.fontTabla{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	font-size:12px;}
+	
+#divFondoAzul{
+	position:absolute;
+	margin-top:10px;
+	margin-left:10px;
+	width:1080px;
+	height:400px;
+	background-color:#071B34;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;}
+ #divFondoAzulb{
+	position:absolute;
+	margin-top:10px;
+	margin-left:10px;
+	width:1080px;
+	height:420px;
+	background-color:#071B34;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;}
+	
+#tblLogin{
+	position:absolute;
+	margin-top:240px;
+	margin-left:10px;}
+	
+#imgLogin{
+	position:absolute;
+	margin-top:240px;
+	margin-left:210px;}
+#imgLoginc{
+	position:absolute;
+	margin-top:290px;
+	margin-left:220px;}	
+ #imgLoginb{
+	position:absolute;
+	margin-top:290px;
+	margin-left:20px;}	
+.fontTexto{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	}
+	
+#divTextColumn1{
+    text-align: justify;
+	position:absolute;
+	margin-top:10px;
+	margin-left:430px;
+	width:230px;}
+#divTextColumnC{
+    text-align: justify;
+	position:absolute;
+	margin-top:10px;
+	margin-left:430px;
+	width:600px;}	
+#divTextColumn2{
+    text-align: justify;
+	position:absolute;
+	margin-top:10px;
+	margin-left:670px;
+	width:230px;}
+	
+#divTextColumn3{
+    text-align: justify;
+	position:absolute;
+	margin-top:10px;
+	margin-left:900px;}
+	
+#imgAbajo1{
+	position:absolute;
+	margin-top:420px;
+	margin-left:10px;}
+	
+#imgAbajo2{
+	position:absolute;
+	margin-top:420px;
+	margin-left:255px;
+    }
+	
+#divMarcas{
+    text-align: justify;
+	position:absolute;
+	margin-top:420px;
+	margin-left:500px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	background-color:#071B34;
+    width:568px;
+    padding: 10px;
+    }
+ #imgAbajo1b{
+	position:absolute;
+	margin-top:440px;
+	margin-left:10px;}
+	
+#imgAbajo2b{
+	position:absolute;
+	margin-top:440px;
+	margin-left:255px;
+    }
+	
+#divMarcasb{
+    text-align: justify;
+	position:absolute;
+	margin-top:440px;
+	margin-left:500px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	background-color:#071B34;
+    width:568px;
+    padding: 10px;
+    }
+div.tabla
+{
+	clear: none;
+	overflow: auto;
+}
+
+div.fila
+{
+	clear: both;
+}
+
+div.col_titulo
+{
+	float: left;
+	padding: 0px;
+	border-style: none;
+}
+
+div.col
+{
+	float: left;
+	padding: 0px;
+	border-style: none;
+}

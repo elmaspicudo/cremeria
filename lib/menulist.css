@@ -1,0 +1,267 @@
+.navi{
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.navi li{
+	margin-bottom:5px;
+
+	}
+.navi li a{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	text-align:left;
+	font-size:11px;
+	color:#333333;
+	background-image:url(../images/default/btnloop1.jpg);
+	}
+.navi li a:hover {
+	color:#333333;
+	background-color:#c9d7de;
+	background-image:url(../images/default/btnloop2.jpg);
+}
+/*iconos*/
+.navi li.icono1{
+	background-image:url(../images/default/icos/agregar.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+
+.navi li.icono2{
+	background-image:url(../images/default/icos/perfiles.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+
+.navi li.icono3{
+	background-image:url(../images/default/icos/clientes.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+
+.navi li.icono4{
+	background-image:url(../images/default/icos/proveedores.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+
+.navi li.icono5{
+	background-image:url(../images/default/icos/productos.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+
+.navi li.icono6{
+	background-image:url(../images/default/icos/cotizador.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+
+.navi li.icono7{
+	background-image:url(../images/default/icos/cotizaciones.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono8{
+	background-image:url(../images/default/icos/lineas.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono9{
+	background-image:url(../images/default/icos/precios.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono10{
+	background-image:url(../images/default/icos/tcambio.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono11{
+	background-image:url(../images/default/icos/compras.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono12{
+	background-image:url(../images/default/icos/rmercancia.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:10px;
+	padding-top:6px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono13{
+	background-image:url(../images/default/icos/smercancia.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono14{
+	background-image:url(../images/default/icos/ocompras.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:10px;
+	padding-top:6px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono15{
+	background-image:url(../images/default/icos/facturas.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono16{
+	background-image:url(../images/default/icos/prefac.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono17{
+	background-image:url(../images/default/icos/remiciones.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+.navi li.icono18{
+	background-image:url(../images/default/icos/ncredito.jpg);
+	background-repeat:no-repeat;
+	padding-left:53px;
+	padding-bottom:15px;
+	padding-top:15px;
+	background-color:#f3f3f3;
+	}
+/*
+table{
+	font-size:11px;
+	}*/
+table{
+	font-size:12px;
+	}
+.clstrx{
+	background-color:#000 ;
+
+}
+
+
+.x-btn button
+{
+	color:#000;
+	}
+.x-btn-noicon .x-btn-small .x-btn-text {
+    height: 25px;
+	padding-left:10px;
+	padding-right:10px;
+}
+/*fin de iconos*/
+/******Barra down*********/
+#bardown{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: <length>;
+	position: fixed;
+	background-color:#ffa20e;
+	height:6px;
+	}
+table{
+	font-size:11px;
+	
+	}
+.clstrx{
+	background-color:#EDEDED ;
+
+}
+
+
+.x-btn button
+{
+	font-size:16px;}
+.x-btn-noicon .x-btn-small .x-btn-text {
+    height: 25px;
+}
+.orIzqui{
+	text-align:left; border-right:solid 1px #e0e1e1;	border-bottom:solid 1px #e0e1e1;
+	}
+.tbcentro
+{
+	border-right:solid 1px #e0e1e1;	border-bottom:solid 1px #e0e1e1;
+	}
+.orDer
+{
+	border-right:solid 1px #e0e1e1;	border-bottom:solid 1px #e0e1e1;
+	}
+.trinicio
+{
+	 border-right:solid 1px #e0e1e1;	border-bottom:solid 1px #e0e1e1; 
+	}
+	.trinicios
+{
+	 border-right:solid 1px #e0e1e1; border-left:solid 1px #e0e1e1;	border-bottom:solid 1px #e0e1e1; 
+	}
+.sinborde{ border:0; text-align:left; height:22px;font-size: 11px; width:95%}
+.sinborded{ border:0; text-align:right; height:22px;font-size: 11px;width:95%}
+.totales{ border:0; text-align:right; height:24px;font-size: 14px;width:95%; color:red;}
+.btnEliminar{ background-image:url(../../../../imagenes/elimina.png);height:14px; width:14px}
+.btnEditar{ background-image:url(../../../../imagenes/edita.png);height:14px; width:14px}
+div.dock-item ul {
+display:none;  
+padding: 2px 3px;  
+margin-left:5px; 
+-moz-border-radius: 3px;  
+-webkit-border-radius: 3px; 
+z-index:+1; 
+text-decoration: none; 
+}
+div.dock-item:hover ul {
+display: inline;  
+position: absolute; 
+opacity: .9; 
+font-size: 12px; 
+background: #000;  
+color: #fff;  
+border: #000 solid 1px; 
+text-decoration: none; 
+}

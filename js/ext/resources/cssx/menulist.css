@@ -1,0 +1,85 @@
+.navi{
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.navi li{
+	margin-bottom:5px;
+
+	}
+.navi li a{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	text-align:left;
+	font-size:11px;
+	color:#333333;
+	background-image:url(../images/default/btnloop1.jpg);
+	}
+.navi li a:hover {
+	color:#333333;
+	background-color:#c9d7de;
+	background-image:url(../images/default/btnloop2.jpg);
+}
+/*iconos*/
+.navi li.icono1{
+	background-image:url(../images/default/icos/agregar.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+
+.navi li.icono2{
+	background-image:url(../images/default/icos/perfiles.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+
+.navi li.icono3{
+	background-image:url(../images/default/icos/clientes.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+
+.navi li.icono4{
+	background-image:url(../images/default/icos/proveedores.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+
+.navi li.icono5{
+	background-image:url(../images/default/icos/productos.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+
+.navi li.icono6{
+	background-image:url(../images/default/icos/cotizador.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+
+.navi li.icono7{
+	background-image:url(../images/default/icos/cotizaciones.jpg);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	}
+/*
+table{
+	font-size:11px;
+	}*/
+table{
+	font-size:12px;
+	}
+.clstrx{
+	background-color:#EDEDED ;
+
+}
+
+
+.x-btn button
+{
+	font-size:16px;}
+.x-btn-noicon .x-btn-small .x-btn-text {
+    height: 25px;
+}
+/*fin de iconos*/
