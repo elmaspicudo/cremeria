@@ -4,10 +4,10 @@ $bd = new BD;
 	
 class BD{
 	//datos de conexion
-	var $host = "localhost";
-	var $user = "root";
-	var $password = "admin";
-	var $database = "1042628_cremeria";
+	var $host = "db580472393.db.1and1.com";
+	var $user = "dbo580472393";
+	var $password = "!Lacreme1";
+	var $database = "db580472393";
 	var $conn;
 	
 	
